@@ -1,9 +1,6 @@
 /* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
-
-import { GiphyComponent } from '../giphy.component';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {GiphyComponent} from '../giphy.component';
 
 describe('GiphyComponent', () => {
   let component: GiphyComponent;
@@ -11,9 +8,9 @@ describe('GiphyComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GiphyComponent ]
+      declarations: [GiphyComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

@@ -22,6 +22,6 @@ before_script:
 - npm install
 - ng lint
 - ng build
-- npm run test
-- npm run e2e
+- ng test
+- ng e2e
 

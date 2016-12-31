@@ -1,4 +1,6 @@
 # MeuCursoRefinadoAngular
+[![Build Status](https://travis-ci.org/codigorefinado/curso-refinado-angular.svg?branch=master)](https://travis-ci.org/codigorefinado/curso-refinado-angular)
+
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 

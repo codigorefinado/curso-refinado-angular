@@ -21,6 +21,6 @@ before_script:
 - npm install
 - ng lint
 - ng build
-- ng test --watch=false --code-coverage
+- ng test --watch=false --code-coverage --lint
 #- ng e2e
 

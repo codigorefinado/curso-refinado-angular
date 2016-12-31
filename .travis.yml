@@ -22,5 +22,3 @@ before_script:
 - ng lint
 - ng build
 - ng test --watch=false --code-coverage --lint
-#- ng e2e
-

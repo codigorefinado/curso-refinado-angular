@@ -1,8 +1,6 @@
 # MeuCursoRefinadoAngular
 [![Build Status](https://travis-ci.org/codigorefinado/curso-refinado-angular.svg?branch=master)](https://travis-ci.org/codigorefinado/curso-refinado-angular)
-
 [![Dependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular)
-
 [![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
 
 

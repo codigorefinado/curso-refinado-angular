@@ -7,6 +7,9 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/codigorefinado/curso-refinado-angular/badge.svg?branch=master)](https://coveralls.io/github/codigorefinado/curso-refinado-angular/?branch=master)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
+
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
 ## Development server

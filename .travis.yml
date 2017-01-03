@@ -22,9 +22,10 @@ before_script:
 - npm install -g karma
 - ng lint
 - ng build
+- ng serve &
+- ng e2e
 
 #- ng test --single-run #travis don't pass, 10minutes without message in console
 script: 
   karma start karma.conf.js --single-run
-- ng serve &
-- ng e2e
+

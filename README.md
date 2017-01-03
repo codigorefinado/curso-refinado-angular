@@ -1,6 +1,8 @@
 # MeuCursoRefinadoAngular
 [![Build Status](https://travis-ci.org/codigorefinado/curso-refinado-angular.svg?branch=master)](https://travis-ci.org/codigorefinado/curso-refinado-angular)
+
 [![Dependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular)
+
 [![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
 
 

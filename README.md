@@ -5,6 +5,7 @@
 
 [![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
 
+[![Coverage Status](https://coveralls.io/repos/github/codigorefinado/curso-refinado-angular/badge.svg?branch=master)](https://coveralls.io/github/codigorefinado/curso-refinado-angular/?branch=master)
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 

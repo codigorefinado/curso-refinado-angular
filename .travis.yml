@@ -21,4 +21,4 @@ before_script:
 - npm install
 - ng lint
 - ng build
-- ng test --watch=false --code-coverage --lint
+- ng test --watch=false --code-coverage

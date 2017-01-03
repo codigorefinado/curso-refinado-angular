@@ -24,6 +24,7 @@ before_script:
 - ng build
 
 #- ng test --single-run #travis don't pass, 10minutes without message in console
-- script: karma start karma.conf.js --single-run
+script: 
+  karma start karma.conf.js --single-run
 - ng serve &
 - ng e2e

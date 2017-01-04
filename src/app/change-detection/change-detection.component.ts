@@ -9,7 +9,6 @@ import { Actor } from './actor.type';
     <button type="button" (click)="changeActorProperties()">Change Actor Properties</button>
     <button type="button" (click)="changeActorObject()">Change Actor Object </button>
     <app-movie-component [title]="title" [actor]="actor"></app-movie-component>`,
-
 })
 export class ChangeDetectionComponent {
 

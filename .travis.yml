@@ -26,12 +26,11 @@ before_script:
 #- npm install -g angular-cli
 #- npm install -g karma
 - npm install
-
 - ng lint
 - ng build
 - ng serve &
 - ng e2e
-ng test --code-coverage --single-run
+- ng test --code-coverage --single-run
 
 #- ng test --single-run #travis don't pass, 10minutes without message in console
 #script: 

@@ -4,14 +4,13 @@ import {AppComponent} from '../app.component';
 import {AppModule} from '../app.module';
 
 describe('AppComponent', () => {
-  beforeEach(() => {
+  beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
         AppModule,
       ],
-    });
-    TestBed.compileComponents();
-  });
+    }).compileComponents();
+  }));
 
   it('should create the app', async(() => {
     let fixture = TestBed.createComponent(AppComponent);

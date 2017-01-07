@@ -3,6 +3,7 @@
 [![Dependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular)
 [![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
 [![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
+[![Code Climate](https://codeclimate.com/github/codigorefinado/curso-refinado-angular/badges/gpa.svg)](https://codeclimate.com/github/codigorefinado/curso-refinado-angular)
 
 [![GitHub issues](https://img.shields.io/github/issues/codigorefinado/curso-refinado-angular/shields.svg)]()
 [![npm](https://img.shields.io/npm/v/npm.svg)]()

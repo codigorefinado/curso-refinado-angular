@@ -5,7 +5,6 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
 
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
-
 [![Github All Releases](https://img.shields.io/github/downloads/codigorefinado/curso-refinado-angular/total.svg)]()
 
 

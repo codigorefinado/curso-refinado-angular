@@ -4,6 +4,7 @@
 [![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
 [![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
 
+[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)]()
 [![npm](https://img.shields.io/npm/v/npm.svg)]()
 [![Github All Releases](https://img.shields.io/github/downloads/codigorefinado/curso-refinado-angular/total.svg)]()
 

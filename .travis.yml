@@ -31,8 +31,9 @@ before_script:
 - ng build
 - ng serve &
 - ng e2e
+ng test --code-coverage --single-run
 
 #- ng test --single-run #travis don't pass, 10minutes without message in console
-script: 
-  karma start karma.conf.js --single-run --code-coverage
+#script: 
+#  karma start karma.conf.js --single-run --code-coverage
 

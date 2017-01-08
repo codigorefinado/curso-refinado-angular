@@ -34,5 +34,5 @@ before_script:
 
 #- ng test --code-coverage --single-run #travis don't pass, 10minutes without message in console
 script:
- - karma start:single karma.conf.js --single-run --code-coverage 
+ - karma start:single karma.conf.js
  - codecov

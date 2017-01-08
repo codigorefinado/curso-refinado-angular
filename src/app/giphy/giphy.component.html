@@ -1,7 +1,8 @@
 <!--{{gifs | json}}-->
 
-<a *ngFor="let gif of gifs" href="{{gif.url}}">
-  <img *ngFor="let gif of gifs"
-       src="http://i.giphy.com/{{gif.id}}.gif" title="imagem {{gif.id}}">
-</a>
-
+<div *ngFor="let gif of gifs">
+  <a href="{{gif.url}}">
+    <img *ngFor="let gif of gifs"
+         src="http://i.giphy.com/{{gif.id}}.gif" title="imagem {{gif.id}}">
+  </a>
+</div>

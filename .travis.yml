@@ -13,9 +13,6 @@ addons:
 apt:
   sources:
     - google-chrome
-#  packages:
-#    - google-chrome-stable
-#    - google-chrome-beta
 
 before_install:
   - export CHROME_BIN=chromium-browser
@@ -23,8 +20,6 @@ before_install:
   - sh -e /etc/init.d/xvfb start
 
 before_script:
-#- npm install -g angular-cli
-#- npm install -g karma
 - npm install -g codecov
 - npm install
 - ng lint
@@ -32,7 +27,5 @@ before_script:
 - ng serve & ng e2e
 - ng test --watch=false --code-coverage
 
-
-#- ng test --code-coverage --single-run #travis don't pass, 10minutes without message in console
 script:
  - codecov

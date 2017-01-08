@@ -28,6 +28,6 @@ before_script:
 - ng serve & ng e2e
 - ng test --watch=false --code-coverage
 
-script:
+build_success:
  - codecov
- - coveralls
+

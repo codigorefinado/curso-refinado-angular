@@ -21,6 +21,7 @@ before_install:
 
 before_script:
 - npm install -g codecov
+- npm install -g coveralls
 - npm install
 - ng lint
 - ng build
@@ -29,3 +30,4 @@ before_script:
 
 script:
  - codecov
+ - coveralls

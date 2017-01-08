@@ -4,6 +4,7 @@ engines:
     config:
       languages:
       - javascript
+      - typescript
   tslint:
     enabled: true
   fixme:

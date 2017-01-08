@@ -30,11 +30,10 @@ before_script:
 - ng build
 - ng serve &
 - ng e2e
-
+- karma start karma.conf.js --single-run --code-coverage
+- npm install -g codecov
+- cd coverage && codecov
 
 #- ng test --code-coverage --single-run #travis don't pass, 10minutes without message in console
-script: 
-  karma start karma.conf.js --single-run --code-coverage
-  cat ./coverage/lcov.info | ./bin/coveralls.js --verbose
-  
+
 

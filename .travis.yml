@@ -30,7 +30,7 @@ before_script:
 - ng lint
 - ng build
 - ng serve & ng e2e
-- ng test --watch=false 
+- ng test --watch=false --code-coverage
 
 
 #- ng test --code-coverage --single-run #travis don't pass, 10minutes without message in console

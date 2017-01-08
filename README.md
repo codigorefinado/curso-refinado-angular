@@ -7,7 +7,7 @@
 
 [![Code Climate](https://codeclimate.com/github/codigorefinado/curso-refinado-angular/badges/gpa.svg)](https://codeclimate.com/github/codigorefinado/curso-refinado-angular)
 [![Issue Count](https://codeclimate.com/github/codigorefinado/curso-refinado-angular/badges/issue_count.svg)](https://codeclimate.com/github/codigorefinado/curso-refinado-angular)
-[![Coverage](https://img.shields.io/codecov/c/github/codigorefinado/curso-refinado-angular.svg?maxAge=2592000)](https://codecov.io/gh/codigorefinado/curso-refinado-angular)
+
 
 
 [![GitHub issues](https://img.shields.io/github/issues/codigorefinado/curso-refinado-angular/shields.svg)]()

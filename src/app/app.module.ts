@@ -5,6 +5,7 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {GiphyComponent} from './giphy/giphy.component';
+import {GiphyService} from './giphy/giphy.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import {GiphyComponent} from './giphy/giphy.component';
     AppRoutingModule,
 
   ],
-  providers: [],
+  providers: [GiphyService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

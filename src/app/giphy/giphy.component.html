@@ -1,71 +1,7 @@
-<p>
-  giphy works!
-</p>
-
 <!--{{gifs | json}}-->
 
+<a *ngFor="let gif of gifs" href="{{gif.url}}">
+  <img *ngFor="let gif of gifs"
+       src="http://i.giphy.com/{{gif.id}}.gif" title="imagem {{gif.id}}">
+</a>
 
-
-<!--<table>-->
-<!--<thead>-->
-<!--<tr>-->
-<!--<td>Id</td>-->
-<!--<td>Imagem</td>-->
-<!--</tr>-->
-<!--</thead>-->
-
-
-<!--<tbody>-->
-<!--<tr>-->
-<!--<td>iuHaJ0D7macZq</td>-->
-<!--<td>-->
-<!--<a href="http:\/\/giphy.com\/gifs\/cat-day-tomorrow-iuHaJ0D7macZq">-->
-<!--<img-->
-<!--src="http://i.giphy.com/iuHaJ0D7macZq.gif">-->
-<!--</a>-->
-<!--</td>-->
-<!--</tr>-->
-
-<!--<tr>-->
-<!--<td>zZMTVkTeEfeEg</td>-->
-<!--<td>-->
-<!--<a href="http:\/\/giphy.com\/gifs\/cat-day-tomorrow-zZMTVkTeEfeEg">-->
-<!--<img src="http://i.giphy.com/zZMTVkTeEfeEg.gif">-->
-<!--</a>-->
-<!--</td>-->
-<!--</tr>-->
-
-<!--<tr>-->
-<!--<td>Z1kpfgtHmpWHS</td>-->
-<!--<td>-->
-<!--<a href="http:\/\/giphy.com\/gifs\/cat-day-tomorrow-Z1kpfgtHmpWHS">-->
-<!--<img src="http://i.giphy.com/Z1kpfgtHmpWHS.gif">-->
-<!--</a>-->
-<!--</td>-->
-<!--</tr>-->
-
-<!--</tbody>-->
-<!--</table>-->
-
-<table>
-  <thead>
-  <tr>
-    <td>Id</td>
-    <td>Imagem</td>
-  </tr>
-  </thead>
-
-  <tbody>
-  <tr *ngFor="let gif of gifs">
-    <td >{{gif.id}}</td>
-    <td>
-      <a href="{{gif.url}}">
-        <img
-          src="http://i.giphy.com/{{gif.id}}.gif">
-      </a>
-    </td>
-  </tr>
-
-
-  </tbody>
-</table>

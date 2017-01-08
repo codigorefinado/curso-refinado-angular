@@ -21,7 +21,7 @@ before_install:
 
 before_script:
 - npm install -g codecov
-- npm install -g coveralls
+- npm install coveralls
 - npm install
 - ng lint
 - ng build
@@ -30,4 +30,4 @@ before_script:
 
 build_success:
  - codecov
-
+ - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js

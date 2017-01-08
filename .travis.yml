@@ -28,6 +28,6 @@ before_script:
 - ng serve & ng e2e
 - ng test --watch=false --code-coverage
 
-build_success:
+script:
  - codecov
  - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js

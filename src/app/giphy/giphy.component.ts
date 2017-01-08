@@ -1,16 +1,20 @@
 import {Component, OnInit} from '@angular/core';
+import {REQUESTGIPHY} from './request-giphy.stub';
 
 @Component({
-  selector: 'app-giphy',
+  selector: 'giphy-component',
   templateUrl: './giphy.component.html',
   styleUrls: ['./giphy.component.css']
 })
 export class GiphyComponent implements OnInit {
 
+  gifs: any[] = [];
+
   constructor() {
+
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.gifs = REQUESTGIPHY.data;
   }
-
 }

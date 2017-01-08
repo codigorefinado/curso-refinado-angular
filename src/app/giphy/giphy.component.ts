@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {REQUESTGIPHY} from './request-giphy.stub';
+import {Http, Response} from '@angular/http';
 
 @Component({
   selector: 'giphy-component',
@@ -10,11 +11,14 @@ export class GiphyComponent implements OnInit {
 
   gifs: any[] = [];
 
-  constructor() {
-
+  constructor(private http: Http) {
   }
 
   ngOnInit(): void {
-    this.gifs = REQUESTGIPHY.data;
+    //this.gifs = REQUESTGIPHY.data;
+    let url: string = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=5';
+    this.http.get(url).subscribe((response: Response) => {
+      this.gifs = response.json().data;
+    });
   }
 }

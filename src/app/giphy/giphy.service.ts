@@ -9,7 +9,7 @@ export class GiphyService {
   }
 
   pesquisarGiphy(): Observable<Response> {
-    let url: string = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
+    let url = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
     return this.http.get(url);
   }
 }

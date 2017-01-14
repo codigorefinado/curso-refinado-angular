@@ -8,7 +8,7 @@ import { Actor } from './actor.type';
     <p>{{ slogan }}</p>
     <button type="button" (click)="changeActorProperties()">Change Actor Properties</button>
     <button type="button" (click)="changeActorObject()">Change Actor Object </button>
-    <app-movie-component [title]="title" [actor]="actor"></app-movie-component>`,
+    <movie-component [title]="title" [actor]="actor"></movie-component>`,
 })
 export class ChangeDetectionComponent {
 

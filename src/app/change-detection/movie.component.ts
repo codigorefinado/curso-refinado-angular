@@ -2,7 +2,7 @@ import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { Actor } from './actor.type';
 
 @Component({
-  selector: 'app-movie-component',
+  selector: 'movie-component',
   template: `
     <div>
       <h3>{{ title }}</h3>

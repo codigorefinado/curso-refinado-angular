@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
       {path: 'change-detection', loadChildren: 'app/change-detection/change-detection.module#ChangeDetectionModule'},
     ])
   ],
-  exports: [RouterModule]
+  exports: [ RouterModule]
 })
 export class AppRoutingModule {
 

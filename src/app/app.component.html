@@ -1,7 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<a [routerLink]="'/'">Welcome</a>
+<a [routerLink]="'giphy-search'">giphy-search</a>
 
-<giphy-component></giphy-component>
-<hr/>
-<router-outlet></router-outlet>
+<br/>
+<br/>
+<br/>
+
+<router-outlet (activate)='onActivate($event)'
+               (deactivate)='onDeactivate($event)'>
+</router-outlet>

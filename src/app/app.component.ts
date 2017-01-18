@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ],
 })
 export class AppComponent {
-  title = 'app works!';
+
+  onActivate(event: any) {
+    console.log('onActivate', event);
+  }
+
+  onDeactivate(event: any) {
+    console.log('onDeactivate', event);
+  }
 }

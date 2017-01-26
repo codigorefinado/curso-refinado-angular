@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-welcome',
     templateUrl: './app-welcome.component.html'
 })
 export class AppWelcomeComponent implements OnInit {
-    constructor() { }
+    constructor(private title: Title) { }
 
-    ngOnInit() { }
+    ngOnInit() {
+      this.title.setTitle('Welcome giphy search...');
+    }
 
 }

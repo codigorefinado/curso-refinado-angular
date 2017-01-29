@@ -2,13 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GiphySearchAutoComponent } from './giphy-search-auto.component';
 
-const routes: Routes = [];
+const routes: Routes = [ { path: 'giphy-search-auto', component: GiphySearchAutoComponent } ];
 
 @NgModule({
   imports: [
-    RouterModule.forChild([
-      { path: 'giphy-search-auto', component: GiphySearchAutoComponent }
-    ])
+    RouterModule.forChild(routes)
   ]
 })
 export class GiphySearchAutoRoutingModule {

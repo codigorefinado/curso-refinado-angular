@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  onActivate(event: any) {
-    console.log('onActivate', event);
-  }
-
-  onDeactivate(event: any) {
-    console.log('onDeactivate', event);
-  }
 }

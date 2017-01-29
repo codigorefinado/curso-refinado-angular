@@ -14,18 +14,17 @@ export class GiphySearchComponent implements OnInit {
 
   gifs: any[] = [];
 
+
   constructor(protected title: Title, protected giphySearchService: GiphySearchService) {
   }
 
   ngOnInit() {
     this.title.setTitle('Giphy search');
-
-    this.giphySearchService.pesquisarGiphy().subscribe((response: Response) => this.gifs = response.json().data);
   }
 
   public pesquisarGiphy() {
-    console.log(this.limit + '  ' + this.term);
-    //    this.giphySearchService.pesquisarGiphy().subscribe((response: Response) => this.gifs = response.json().data);
+    this.giphySearchService.pesquisarGiphy(this.limit, this.term)
+      .subscribe((response: Response) => this.gifs = response.json().data);
   }
 
 }

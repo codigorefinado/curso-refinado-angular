@@ -1,3 +1,4 @@
-<p>
-  giphy-search-list works!
-</p>
+<a *ngFor="let gif of gifs" href="{{gif.url}}">
+  <img
+    src="http://i.giphy.com/{{gif.id}}.gif" title="imagem {{gif.id}}">
+</a>

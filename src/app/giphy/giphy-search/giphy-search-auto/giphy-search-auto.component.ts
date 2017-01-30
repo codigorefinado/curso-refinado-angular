@@ -4,7 +4,7 @@ import { Title } from '@angular/platform-browser';
 import { GiphySearchService } from '../giphy-search.service';
 import { Response } from '@angular/http';
 import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/debounce';
+import 'rxjs/add/operator/distinctUntilChanged';
 
 @Component({
   selector: 'giphy-search-auto',
@@ -30,6 +30,7 @@ export class GiphySearchAutoComponent extends GiphySearchComponent implements On
     //milliseconds
     this.giphySearchService.pesquisarGiphy(this.limit, this.term)
       .debounceTime(9000)
+      .distinctUntilChanged()
       .subscribe((response: Response) => this.gifs = response.json().data);
   }
 }

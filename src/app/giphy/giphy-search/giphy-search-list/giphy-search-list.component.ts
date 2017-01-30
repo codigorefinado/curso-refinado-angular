@@ -9,7 +9,6 @@ export class GiphySearchListComponent implements OnInit {
   @Input()
   gifs: any[] = [];
 
-
   constructor() {
   }
 

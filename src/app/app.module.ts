@@ -8,6 +8,7 @@ import { GiphyService } from './giphy/giphy.service';
 import { GiphySearchModule } from './giphy/giphy-search/giphy-search.module';
 import { AppWelcomeModule } from './app-welcome/app-welcome.module';
 import { GiphySearchAutoModule } from './giphy/giphy-search/giphy-search-auto/giphy-search-auto.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,8 @@ import { GiphySearchAutoModule } from './giphy/giphy-search/giphy-search-auto/gi
 
   ],
   providers: [ GiphyService ],
+  exports: [ FormsModule ],
+
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

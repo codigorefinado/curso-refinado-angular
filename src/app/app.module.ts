@@ -7,8 +7,8 @@ import { GiphyComponent } from './giphy/giphy.component';
 import { GiphyService } from './giphy/giphy.service';
 import { GiphySearchModule } from './giphy/giphy-search/giphy-search.module';
 import { AppWelcomeModule } from './app-welcome/app-welcome.module';
-import { GiphySearchAutoModule } from './giphy/giphy-search/giphy-search-auto/giphy-search-auto.module';
 import { FormsModule } from '@angular/forms';
+import { GiphySearchAutoModule } from './giphy/giphy-search/giphy-search-auto/giphy-search-auto.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,6 @@ import { FormsModule } from '@angular/forms';
     GiphySearchModule,
     GiphySearchAutoModule,
     AppRoutingModule,
-
   ],
   providers: [ GiphyService ],
   exports: [ FormsModule ],

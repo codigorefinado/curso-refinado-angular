@@ -1,3 +1,4 @@
-Term: <input type="text"  [(ngModel)]="term"  (input)="pesquisarGiphy()">
+Term: <input type="text" #searchText (input)="pesquisarGiphyTerm(searchText.value)">
 <BR/>
+
 <giphy-search-list [gifs]="gifs"></giphy-search-list>

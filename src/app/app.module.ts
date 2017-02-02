@@ -19,8 +19,6 @@ import { GiphySearchAutoModule } from './giphy/giphy-search/giphy-search-auto/gi
     BrowserModule,
     HttpModule,
     AppWelcomeModule,
-    GiphySearchModule,
-    GiphySearchAutoModule,
     AppRoutingModule,
   ],
   providers: [ GiphyService ],

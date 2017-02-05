@@ -1,10 +1,12 @@
 /* tslint:disable:no-unused-variable */
+
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+
 import {GiphyComponent} from '../giphy.component';
 import {GiphyService} from '../giphy.service';
 import {HttpModule} from '@angular/http';
 
-describe('GiphyComponent', () => {
+describe('giphy.component.spec.ts', () => {
   let component: GiphyComponent;
   let fixture: ComponentFixture<GiphyComponent>;
 
@@ -13,8 +15,7 @@ describe('GiphyComponent', () => {
       imports: [HttpModule],
       declarations: [GiphyComponent],
       providers: [GiphyService]
-    })
-      .compileComponents();
+    }).compileComponents();
   }));
 
   beforeEach(() => {

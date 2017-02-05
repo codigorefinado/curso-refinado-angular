@@ -1,20 +1,18 @@
 /* tslint:disable:no-unused-variable */
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { GiphyComponent } from '../giphy.component';
+import { GiphyService } from '../giphy.service';
+import { HttpModule } from '@angular/http';
 
-import {async, ComponentFixture, TestBed} from '@angular/core/testing';
-
-import {GiphyComponent} from '../giphy.component';
-import {GiphyService} from '../giphy.service';
-import {HttpModule} from '@angular/http';
-
-describe('giphy.component.spec.ts', () => {
+fdescribe('giphy.component.spec.ts', () => {
   let component: GiphyComponent;
   let fixture: ComponentFixture<GiphyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [HttpModule],
-      declarations: [GiphyComponent],
-      providers: [GiphyService]
+      imports: [ HttpModule ],
+      declarations: [ GiphyComponent ],
+      providers: [ GiphyService ]
     }).compileComponents();
   }));
 
@@ -26,5 +24,9 @@ describe('giphy.component.spec.ts', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('verifca se a variável inicializa com array vazio', () => {
+    expect(component.gifs).toEqual([]);
   });
 });

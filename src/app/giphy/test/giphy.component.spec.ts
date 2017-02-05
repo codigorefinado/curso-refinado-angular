@@ -4,7 +4,7 @@ import { GiphyComponent } from '../giphy.component';
 import { GiphyService } from '../giphy.service';
 import { HttpModule } from '@angular/http';
 
-fdescribe('giphy.component.spec.ts', () => {
+describe('giphy.component.spec.ts', () => {
   let component: GiphyComponent;
   let fixture: ComponentFixture<GiphyComponent>;
 

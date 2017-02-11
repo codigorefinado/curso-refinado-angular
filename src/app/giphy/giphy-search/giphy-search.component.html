@@ -1,11 +1,40 @@
+<!-- DatePipe, UpperCasePipe, LowerCasePipe, CurrencyPipe, and PercentPipe -->
+
+<!-- Angular não tem um FilterPipe ou um OrderByPipe porquê isso degrada a performance do framework -->
+
+{{' aqui tem pipes ' | uppercase }}
+
+
+{{ dataCriacao | date }}
+<P>
+  {{ dataCriacao | date:"MM/dd/yy" }}
+</P>
+
+<P>
+  {{ dataCriacao | date | uppercase}}
+</P>
+
+<P>
+  {{ dataCriacao | date:'fullDate' | lowercase}}
+</P>
+
+<P>
+  {{ mensagem | uppercase}} <a [href]="youtube"> Canal código refinado</a>
+</P>
+
+<a href="youtube"> Canal código refinado</a>
+
+<a href="{{youtube}}"> Canal código refinado</a>
+<hr>
+
 Limit: <input type="number" [(ngModel)]="limit" style="width: 4em;">
 Term: <input type="text" [(ngModel)]="term" (keyup.enter)="pesquisarGiphy()">
 
-<input type="button" value="Pesquisar" (click)="pesquisarGiphy()" >
+<input type="button" value="Pesquisar" (click)="pesquisarGiphy()">
 
 <BR/>
 
-<giphy-search-list [gifs]="gifs" ></giphy-search-list>
+<giphy-search-list [gifs]="gifs"></giphy-search-list>
 
 
 

@@ -4,10 +4,10 @@ import { Observable } from 'rxjs';
 
 describe('giphy.service-manual-mock.spec.ts', () => {
   let giphyService: GiphyService;
-  let httpMock: HttpMock;
+  let httpMock: HttpFake;
 
   beforeEach(() => {
-    httpMock = new HttpMock(null, null);
+    httpMock = new HttpFake(null, null);
 
     giphyService = new GiphyService(httpMock);
   });
@@ -36,7 +36,7 @@ describe('giphy.service-manual-mock.spec.ts', () => {
 
 });
 
-class HttpMock extends Http {
+class HttpFake extends Http {
   get(url: string, options?: RequestOptionsArgs): Observable<Response> {
     return Observable.of(null);
   }

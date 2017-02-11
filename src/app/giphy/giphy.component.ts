@@ -1,11 +1,11 @@
-import {Component, OnInit} from '@angular/core';
-import {Response} from '@angular/http';
-import {GiphyService} from './giphy.service';
+import { Component, OnInit } from '@angular/core';
+import { Response } from '@angular/http';
+import { GiphyService } from './giphy.service';
 
 @Component({
   selector: 'giphy-component',
   templateUrl: './giphy.component.html',
-  styleUrls: ['./giphy.component.css']
+  styleUrls: [ './giphy.component.css' ]
 })
 export class GiphyComponent implements OnInit {
 

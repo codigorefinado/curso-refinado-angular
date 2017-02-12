@@ -15,7 +15,12 @@ import { RouterModule } from '@angular/router';
       {
         path: 'giphy-search',
         loadChildren: 'app/giphy/giphy-search/giphy-search.module#GiphySearchModule'
+      },
+      {
+        path: 'pipe-component',
+        loadChildren: 'app/pipe/pipe.module#PipeModule'
       }
+
 
     ])
   ],

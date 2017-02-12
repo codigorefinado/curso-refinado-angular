@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    GiphyComponent
+    GiphyComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,12 +7,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TipoPessoaPipe implements PipeTransform {
     transform(tipo: string): any {
       if('F' === tipo){
-        return "Pessoa física";
+        return 'Pessoa física';
       }
       if('J' === tipo){
-        return "Pessoa jurídica";
+        return 'Pessoa jurídica';
       }
 
-      return "";
+      return '';
     }
 }

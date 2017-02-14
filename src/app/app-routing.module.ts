@@ -19,8 +19,11 @@ import { RouterModule } from '@angular/router';
       {
         path: 'pipe-component',
         loadChildren: 'app/pipe/pipe.module#PipeModule'
+      },
+      {
+        path: 'diretiva-common-module',
+        loadChildren: 'app/diretiva-common-module/diretiva-common-module.module#DiretivaCommonModuleModule'
       }
-
 
     ])
   ],

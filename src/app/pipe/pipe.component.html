@@ -1,3 +1,10 @@
+<h2>TipoPessoaPipe</h2>
+
+{{'J' | tipopessoa }}
+{{'F' | tipopessoa }}
+
+{{ ' aqui temos um texto ' | capitalize}}
+
 <!-- CurrencyPipe (DecimalPipe), and PercentPipe -->
 <!-- pipes utilizam a internationalization API que pode não estar disponível em todos os browsers -->
 <H2>DecimalPipe</H2>
@@ -13,13 +20,10 @@
 <p>Preço: {{104 | currency: 'BRL': true: '4.2-2' }}</p>
 
 
-
 <H2>PercentPipe</H2>
 <p>Percent: {{1 | percent}}</p>
 <p>Percent: {{0.5 | percent}}</p>
 <p>Percent: {{1.45 | percent}}</p>
-
-
 
 
 <!-- DatePipe, UpperCasePipe, LowerCasePipe -->

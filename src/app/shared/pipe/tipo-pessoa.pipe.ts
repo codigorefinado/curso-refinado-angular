@@ -1,11 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-    name: 'tipoPessoa'
+    name: 'tipopessoa'
 })
-
 export class TipoPessoaPipe implements PipeTransform {
-    transform(tipo: string): any {
+    transform(tipo: string): string {
       if('F' === tipo){
         return 'Pessoa física';
       }

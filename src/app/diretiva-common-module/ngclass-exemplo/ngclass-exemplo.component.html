@@ -1,0 +1,19 @@
+
+<p class="centered-text underlined orange">
+  class aqui
+</p>
+
+<p ngClass="centered-text underlined" class="orange">
+  ngClass aqui
+</p>
+
+<p [ngClass]="['success', 'big']">
+  [ngClass] array de class aqui
+</p>
+
+<p [ngClass]="{ card: true, dark: dark, flat: flat }">
+  [ngClass] condicional aqui....
+</p>
+
+<button type="button" (click)="flat=!flat">Toggle Flat</button>
+<button type="button" (click)="dark=!dark">Toggle dark</button>

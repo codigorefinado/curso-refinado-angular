@@ -1,0 +1,27 @@
+<p style="padding: 1rem; color: red; font-weight: bold; borderBottom: borderStyle">
+  Veja o ngStyle MANUAL TRADICIONAL aqui
+</p>
+
+<p style="padding: 1rem"
+   [ngStyle]="{
+        'color': 'red',
+        'font-weight': 'bold',
+        'borderBottom': borderStyle
+      }">
+  Veja o ngStyle aqui
+</p>
+
+<p style="padding: 1rem"
+   [ngStyle]="{
+        'color': cor,
+        'font-weight': 'bold',
+        'borderBottom': borderStyle
+      }">
+  Veja o ngStyle aqui
+</p>
+
+<p style="padding: 1rem"
+   [ngStyle]="alertStyles">
+  Veja o ngStyle aqui
+</p>
+

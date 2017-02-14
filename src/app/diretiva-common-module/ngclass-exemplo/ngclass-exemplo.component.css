@@ -1,0 +1,34 @@
+.centered-text {
+  text-align: center;
+}
+.underlined {
+  border-bottom: 1px solid #ccc;
+}
+.orange {
+  color: orange;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+.big {
+  font-size: 1.2rem;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin: 0.4rem;
+  font-family: sans-serif;
+  box-shadow: 2px 2px 2px #888888;
+}
+
+.dark {
+  background-color: #444;
+  border-color: #000;
+  color: #fff;
+}
+
+.flat {
+  box-shadow: none;
+}

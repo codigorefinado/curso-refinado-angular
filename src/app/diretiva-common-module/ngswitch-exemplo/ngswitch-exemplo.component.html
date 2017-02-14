@@ -1,0 +1,11 @@
+<div >
+  <button (click)="setFormatacao(1)">Itálico</button>
+  <button (click)="setFormatacao(2)">Negrigo</button>
+  <button (click)="setFormatacao(3)">Sublinhado</button>
+</div>
+
+<div [ngSwitch]="formatacao">
+  <I *ngSwitchCase="1">Switch 1 em itálico</I>
+  <B *ngSwitchCase="2">Switch 2 em negrito</B>
+  <U *ngSwitchCase="3">Switch 3 em sublinhado </U>
+</div>

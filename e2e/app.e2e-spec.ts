@@ -1,14 +1,14 @@
-import { MeuCursoRefinadoAngularPage } from './app.po';
+import { CodigoRefinadoAngularPage } from './app.po';
 
-describe('meu-curso-refinado-angular App', function() {
-  let page: MeuCursoRefinadoAngularPage;
+describe('codigo-refinado-angular App', () => {
+  let page: CodigoRefinadoAngularPage;
 
   beforeEach(() => {
-    page = new MeuCursoRefinadoAngularPage();
+    page = new CodigoRefinadoAngularPage();
   });
 
-  // it('should display message saying app works', () => {
-  //   page.navigateTo();
-  //   expect(page.getParagraphText()).toEqual('app works!');
-  // });
+  it('should display message saying app works', () => {
+    page.navigateTo();
+    expect(page.getParagraphText()).toEqual('app works!');
+  });
 });

@@ -1,16 +1,9 @@
-# Meu Curso Refinado de Angular
-[![Build Status](https://travis-ci.org/codigorefinado/curso-refinado-angular.svg?branch=master)](https://travis-ci.org/codigorefinado/curso-refinado-angular)
-[![Dependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular)
-[![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
-[![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
-[![Code Climate](https://codeclimate.com/github/codigorefinado/curso-refinado-angular/badges/gpa.svg)](https://codeclimate.com/github/codigorefinado/curso-refinado-angular)
+# CodigoRefinadoAngular
 
-[![Codecov](https://img.shields.io/codecov/c/github/codigorefinado/curso-refinado-angular.svg)](https://codecov.io/gh/codigorefinado/curso-refinado-angular)
-[![Coverage Status](https://coveralls.io/repos/github/codigorefinado/curso-refinado-angular/badge.svg?branch=master)](https://coveralls.io/github/codigorefinado/curso-refinado-angular?branch=master)
-
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
@@ -30,10 +23,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
 ## Further help
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

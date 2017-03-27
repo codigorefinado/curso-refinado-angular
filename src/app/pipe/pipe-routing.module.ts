@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { RouterModule } from '../../../node_modules/@angular/router/src/router_module';
+import { RouterModule } from '@angular/router';
 import { PipeComponent } from './pipe.component';
 
 @NgModule({

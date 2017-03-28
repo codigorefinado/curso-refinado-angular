@@ -1,4 +1,13 @@
-# CodigoRefinadoAngular
+# Meu Curso Refinado de Angular
+[![Build Status](https://travis-ci.org/codigorefinado/curso-refinado-angular.svg?branch=master)](https://travis-ci.org/codigorefinado/curso-refinado-angular)
+[![Dependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular)
+[![devDependency Status](https://david-dm.org/codigorefinado/curso-refinado-angular/dev-status.svg)](https://david-dm.org/codigorefinado/curso-refinado-angular#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/github/codigorefinado/curso-refinado-angular/badge.svg)](https://snyk.io/test/github/codigorefinado/curso-refinado-angular)
+[![Code Climate](https://codeclimate.com/github/codigorefinado/curso-refinado-angular/badges/gpa.svg)](https://codeclimate.com/github/codigorefinado/curso-refinado-angular)
+
+[![Codecov](https://img.shields.io/codecov/c/github/codigorefinado/curso-refinado-angular.svg)](https://codecov.io/gh/codigorefinado/curso-refinado-angular)
+[![Coverage Status](https://coveralls.io/repos/github/codigorefinado/curso-refinado-angular/badge.svg?branch=master)](https://coveralls.io/github/codigorefinado/curso-refinado-angular?branch=master)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 

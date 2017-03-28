@@ -10,7 +10,7 @@ import { Response } from '@angular/http';
 export class GiphySearchComponent implements OnInit {
 
   dataCriacao: Date = new Date(1988, 3, 15);
-  mensagem: string = 'Aguarde o curso de IONIC, em breve, fique ligado no YouTube '
+  mensagem: string = 'Aguarde o curso de IONIC, em breve, fique ligado no YouTube ';
   youtube: string = 'https://goo.gl/h50OpD';
 
 

@@ -2,7 +2,7 @@ import { TipoPessoaPipe } from '../tipo-pessoa.pipe';
 
 describe('tipo-pessoa.pipe.spec.ts', () => {
 
-  let tipoPessoaPipe: TipoPessoaPipe = new TipoPessoaPipe();
+  const tipoPessoaPipe: TipoPessoaPipe = new TipoPessoaPipe();
 
   it('Deveria ser pessoa física', () => {
       expect(tipoPessoaPipe.transform('F')).toEqual('Pessoa física');

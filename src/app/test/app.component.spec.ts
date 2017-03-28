@@ -7,14 +7,12 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { Route } from '@angular/router';
 
 describe('AppComponent', () => {
-  let config: Route[] = [
-    { path: '', component: AppComponent },
-  ];
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        AppModule, RouterTestingModule.withRoutes(config)
+        AppModule, RouterTestingModule.withRoutes( [
+          { path: '', component: AppComponent },
+        ])
       ],
       providers: [
         { provide: APP_BASE_HREF, useValue: '/' }
@@ -23,8 +21,8 @@ describe('AppComponent', () => {
   }));
 
   it('should create the app', async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    let app = fixture.debugElement.componentInstance;
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
 

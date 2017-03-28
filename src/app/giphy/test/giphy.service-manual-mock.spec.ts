@@ -1,6 +1,6 @@
 import { GiphyService } from '../giphy.service';
 import { Http, RequestOptionsArgs, Response } from '@angular/http';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
 
 describe('giphy.service-manual-mock.spec.ts', () => {
   let giphyService: GiphyService;
@@ -22,7 +22,7 @@ describe('giphy.service-manual-mock.spec.ts', () => {
   it('Verifica se foi chamado o get dentro do giphyService.pesquisaGiphy com parametro', () => {
     spyOn(httpMock, 'get');
 
-    let url = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
+    const url = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
     giphyService.pesquisarGiphy();
     expect(httpMock.get).toHaveBeenCalledWith(url);
   });

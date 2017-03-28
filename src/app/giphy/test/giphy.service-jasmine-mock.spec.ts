@@ -16,7 +16,7 @@ describe('giphy.service-jasmine-mock.spec.ts', () => {
   });
 
   it('Verifica se foi chamado o get dentro do giphyService.pesquisaGiphy com parametro', () => {
-    let url = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
+    const url = 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC&limit=2';
     giphyService.pesquisarGiphy();
     expect(httpMock.get).toHaveBeenCalledWith(url);
   });

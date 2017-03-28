@@ -23,23 +23,23 @@ describe('giphy-search-list.component-teste-de-component.spec.ts', () => {
   }));
 
   it('Deve ter o a tag <a> com href defindo...', async(() => {
-    let anchor: HTMLAnchorElement = fixture.debugElement.query(By.css('a')).nativeElement;
+    const anchor: HTMLAnchorElement = fixture.debugElement.query(By.css('a')).nativeElement;
     expect(anchor.href).toBe('http:\/\/giphy.com\/gifs\/cat-day-tomorrow-iuHaJ0D7macZq');
   }));
 
   it('Deve ter o a tag <img> com title defindo...', async(() => {
-    let anchor: HTMLImageElement = fixture.debugElement.query(By.css('img')).nativeElement;
+    const anchor: HTMLImageElement = fixture.debugElement.query(By.css('img')).nativeElement;
     expect(anchor.title).toBe('imagem iuHaJ0D7macZq');
   }));
 
   it('Deve ter o a tag <img> com src defindo...', async(() => {
-    let anchor: HTMLImageElement = fixture.debugElement.query(By.css('img')).nativeElement;
+    const anchor: HTMLImageElement = fixture.debugElement.query(By.css('img')).nativeElement;
     expect(anchor.src).toBe('http://i.giphy.com/iuHaJ0D7macZq.gif');
   }));
 
 
   it('Deve ter o a tag <img> com src defindo... pedando a tag pelo id', async(() => {
-    let anchor: HTMLImageElement = fixture.debugElement.query(By.css('#imagem-gif')).nativeElement;
+    const anchor: HTMLImageElement = fixture.debugElement.query(By.css('#imagem-gif')).nativeElement;
     expect(anchor.src).toBe('http://i.giphy.com/iuHaJ0D7macZq.gif');
   }));
 
@@ -49,6 +49,7 @@ describe('giphy-search-list.component-teste-de-component.spec.ts', () => {
 /**
  * By.css('img') => Pega a tag img tag
  * By.css('#imagem-gif') => pega o elemento pelo id, use sempre que possível
- * By.css('a > img') => Pega a tag img mas navegando pela arvore indo da tag a para img, isso funciona relativo ao elemento que se está fazendo a query
+ * By.css('a > img') => Pega a tag img mas navegando pela arvore indo da tag a para img, isso funciona relativo ao elemento que se está
+ * fazendo a query
  * By.css('.fa.fa-trash') => pega o elemento que tem a class .fa.fa-trash
  */

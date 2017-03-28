@@ -1,6 +1,8 @@
 import { GiphyService } from '../giphy.service';
 import { Http, RequestOptionsArgs, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
+
 
 describe('giphy.service-manual-mock.spec.ts', () => {
   let giphyService: GiphyService;

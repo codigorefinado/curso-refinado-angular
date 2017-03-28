@@ -25,7 +25,7 @@ before_script:
 - npm install
 - ng lint
 #- ng build --aot --prod
-- ng serve & ng e2e
+#- ng serve & ng e2e
 - ng test --watch=false --code-coverage
 
 script:

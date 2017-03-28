@@ -24,7 +24,7 @@ before_script:
 - npm install coveralls
 - npm install
 - ng lint
-- ng build
+- ng build --aot --prod
 - ng serve & ng e2e
 - ng test --watch=false --code-coverage
 
